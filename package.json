@@ -1,0 +1,19 @@
+{
+  "name": "iochat",
+  "version": "1.0.0",
+  "description": "Simple chat app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Sarthak",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "express": "*",
+    "nodemon": "^2.0.20",
+    "socket.io": "*"
+  },
+  "devDependencies": {}
+}
